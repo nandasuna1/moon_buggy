@@ -1,0 +1,126 @@
+# depslib dependency file v1.0
+1575374783 source:c:\users\admin\desktop\moon_buggy\main.c
+	<stdio.h>
+	<stdlib.h>
+	"menu.h"
+	"jogo.h"
+	"funcoesdojogo.h"
+	"funcoesconsole.h"
+	"pause.h"
+	"maps.h"
+	<conio.h>
+	<time.h>
+	<windows.h>
+
+1574373298 source:c:\users\admin\desktop\moon_buggy\funcoesdojogo.c
+	<stdio.h>
+	<stdlib.h>
+	"menu.h"
+	"jogo.h"
+	"funcoesdojogo.h"
+	"funcoesconsole.h"
+	"pause.h"
+	"maps.h"
+	<stdio.h>
+	<stdlib.h>
+	"menu.h"
+	"jogo.h"
+	"funcoesdojogo.h"
+	"funcoesconsole.h"
+	"pause.h"
+	"maps.h"
+	<conio.h>
+	<time.h>
+	<windows.h>
+
+1574372918 c:\users\admin\desktop\moon_buggy\menu.h
+
+1574372447 c:\users\admin\desktop\moon_buggy\jogo.h
+
+1574373292 c:\users\admin\desktop\moon_buggy\funcoesdojogo.h
+
+1574373193 c:\users\admin\desktop\moon_buggy\funcoesconsole.h
+
+1574380958 c:\users\admin\desktop\moon_buggy\pause.h
+
+1576112064 c:\users\admin\desktop\moon_buggy\maps.h
+
+1576110816 source:c:\users\admin\desktop\moon_buggy\jogo.c
+	<stdio.h>
+	<stdlib.h>
+	"menu.h"
+	"jogo.h"
+	"funcoesdojogo.h"
+	"funcoesconsole.h"
+	"pause.h"
+	"maps.h"
+	<conio.h>
+	<time.h>
+	<windows.h>
+
+1576112495 source:c:\users\admin\desktop\moon_buggy\maps.c
+	<stdio.h>
+	<stdlib.h>
+	"menu.h"
+	"jogo.h"
+	"funcoesdojogo.h"
+	"funcoesconsole.h"
+	"pause.h"
+	"maps.h"
+	<conio.h>
+	<time.h>
+	<windows.h>
+
+1576110050 source:c:\users\admin\desktop\moon_buggy\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"menu.h"
+	"jogo.h"
+	"funcoesdojogo.h"
+	"funcoesconsole.h"
+	"pause.h"
+	"maps.h"
+	<conio.h>
+	<time.h>
+	<windows.h>
+	"ranking.h"
+
+1576120629 source:c:\users\admin\desktop\moon_buggy\pause.c
+	<stdio.h>
+	<stdlib.h>
+	"menu.h"
+	"jogo.h"
+	"funcoesdojogo.h"
+	"funcoesconsole.h"
+	<conio.h>
+	<time.h>
+	"ranking.h"
+
+1575209588 source:c:\users\admin\desktop\moon_buggy\funcoesconsole.c
+	<stdio.h>
+	<stdlib.h>
+	"menu.h"
+	"jogo.h"
+	"funcoesdojogo.h"
+	"funcoesconsole.h"
+	"pause.h"
+	"maps.h"
+	<conio.h>
+	<time.h>
+	<windows.h>
+
+1576121530 c:\users\admin\desktop\moon_buggy\ranking.h
+
+1576121599 source:c:\users\admin\desktop\moon_buggy\ranking.c
+	<stdio.h>
+	<stdlib.h>
+	"menu.h"
+	"jogo.h"
+	"funcoesdojogo.h"
+	"funcoesconsole.h"
+	"pause.h"
+	"maps.h"
+	<conio.h>
+	<time.h>
+	<windows.h>
+

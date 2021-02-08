@@ -1,0 +1,79 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "menu.h"
+#include "jogo.h"
+#include "funcoesdojogo.h"
+#include "funcoesconsole.h"
+#include "pause.h"
+#include "maps.h"
+#include <conio.h>
+#include <time.h>
+#include <windows.h>
+
+void ranking(int modo,float score)
+{
+    int n =0, x=0,i;
+
+    struct player
+    {
+        char nome[7];
+        float score;
+    };
+   struct player jogador[n];
+
+    struct JOG
+    {
+        char nome[7];
+        float score;
+    };
+    struct JOG atual;
+    //struct player jogador[n];
+    char c[256];
+    FILE *ponteiro;
+    if(modo == 0)
+    {
+        gotoxy(78,12);
+        puts("> Digite seu nome:");
+        gotoxy(97,12);
+        scanf("%s",&atual.nome);
+        atual.score = score;
+
+        ponteiro = fopen("ranking.txt","r");
+        for(i=5;i>0;i--)
+        {
+            if(atual.score>jogador[i].score)
+            {
+                ponteiro = fopen("ranking.txt","a");
+                atual.score = jogador[i].score;
+        fprintf(ponteiro,"%.7s\t\t%.f\n",jogador[i].nome,jogador[i].score);
+        fclose(ponteiro);
+            }
+        }
+
+
+       /* ponteiro = fopen("ranking.txt","a");
+        fprintf(ponteiro,"%.7s\t\t%.f\n",jogador[0].nome,jogador[0].score);
+        fclose(ponteiro);*/
+
+        /*ponteiro = fopen("ranking.txt","rb");
+        while(fgets(c,sizeof(c),ponteiro))
+        {
+            fscanf(ponteiro,"%s\t\t%f\n",jogador[n].nome,jogador[n].score);
+            n++;
+        }
+        fclose(ponteiro);*/
+    }
+
+
+
+    else if(modo == 1)
+    {
+        ponteiro = fopen("ranking.txt","r");
+        while(fgets(c,sizeof(c),ponteiro) && x < 5)
+        {
+            gotoxy(4,10+x++);
+            printf("%s", c);
+        }
+        fclose(ponteiro);
+    }
+}
